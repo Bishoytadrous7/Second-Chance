@@ -9,9 +9,9 @@
 
 ## 🎥 Demo
 
-![Demo](https://i.imgur.com/qLipWmU.gif)
+![Demo](https://i.imgur.com/PZsTSul.gif)
 
-Check it out: [🛒 Second Chance Live Demo](https://majestic-clafoutis-b6aefd.netlify.app/)
+[🛒 Second Chance Live Demo](https://majestic-clafoutis-b6aefd.netlify.app/)
 
 ---
 
