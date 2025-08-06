@@ -1,4 +1,5 @@
-![React](https://img.shields.io/badge/react-%2361DAFB.svg?logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?logo=javascript&logoColor=black) ![Supabase](https://img.shields.io/badge/supabase-3FCF8E.svg?logo=supabase&logoColor=white)
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?logo=javascript&logoColor=black) ![Supabase](https://img.shields.io/badge/supabase-3FCF8E.svg?logo=supabase&logoColor=white) [![Live Demo](https://img.shields.io/badge/Live%20Site-Netlify-00C7B7?logo=netlify&logoColor=white)](https://majestic-clafoutis-b6aefd.netlify.app/)
+
 
 # 🛍️ Second Chance – Used Items Web App
 
@@ -10,7 +11,7 @@
 
 ![Demo](https://i.imgur.com/qLipWmU.gif)
 
-🔗 [View Full GIF](https://i.imgur.com/qLipWmU.gif)
+Check it out: [🛒 Second Chance Live Demo](https://majestic-clafoutis-b6aefd.netlify.app/)
 
 ---
 
@@ -18,9 +19,8 @@
 
 - ✅ Create new posts with:
   - Title (required)
-  - Description, image URL or local upload, video URL (optional)
+  - Description, image URL, video URL (optional)
   - Category tags (e.g., Furniture, Electronics)
-  - Post flags such as "Question" or "Opinion"
 - ✅ Home feed that displays:
   - Post title, creation time, upvotes
   - Sort by creation time or upvotes
@@ -34,9 +34,7 @@
 - ✅ Authentication (via Supabase):
   - Required for liking and commenting
   - Users must sign up and log in
-- ✅ UI customization options:
-  - Toggle how posts are displayed (e.g., show/hide content or images)
-  - Color scheme options
+- ✅ Light/Dark mode option
 - ✅ Loading animation when fetching data
 
 ---
@@ -55,8 +53,4 @@
 
 I'm a Computer Science student passionate about web development, soccer, and creating engaging web apps.
 🔗 Check out more of my work: [https://github.com/Bishoytadrous7](https://github.com/Bishoytadrous7)
-
----
-
-## 📄 License
 
