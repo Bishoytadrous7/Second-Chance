@@ -8,9 +8,9 @@ const Login = () => {
   const [loggedIn, setLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
 
+
   useEffect(() => {
-    async function checkUser() {
-      const { data } = await supabase.auth.getUser();
+    supabase.auth.getUser().then(async ({ data }) => {
       if (data?.user) {
         setLoggedIn(true);
         const { data: profile } = await supabase
@@ -20,13 +20,11 @@ const Login = () => {
           .single();
         setUsername(profile?.username || "");
       }
-    }
-    checkUser();
+    });
   }, []);
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    setError("");
     const { error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) setError(error.message);
     else window.location.href = "/";
@@ -37,26 +35,29 @@ const Login = () => {
     window.location.href = "/";
   };
 
+  
   return (
     <div className="main-container">
       {loggedIn ? (
         <div>
-          <span>Logged in as: {username || email}</span>
+          <span>
+            Logged in as: {username || email}
+          </span>
           <button onClick={handleLogout}>Logout</button>
         </div>
       ) : (
+
         <form className="auth-form" onSubmit={handleLogin}>
-          <h2>Login</h2>
-          <input type="email" placeholder="Email" value={email} 
-          onChange={e => setEmail(e.target.value)} required/>
-          <input type="password" placeholder="Password" value={password}
-          onChange={e => setPassword(e.target.value)} required/>
-          <button type="submit">Login</button>
-          {error && <p style={{ color: "red" }}>{error}</p>}
-        </form>
-      )}
-    </div>
-  );
+        
+        <h2>Login</h2>
+        <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} required />
+        <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} required />
+        <button type="submit">Login</button>
+        {error && <p style={{ color: "red" }}>{error}</p>}
+      </form>
+    )}
+  </div>
+);
 };
 
 export default Login;
