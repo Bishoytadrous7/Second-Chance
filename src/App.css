@@ -1,0 +1,24 @@
+/* Style for the theme selector dropdown */
+.theme-selector {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #90caf9;
+  color: #1565c0;
+  border: 1px solid #bcd0ee;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+body[data-theme="dark"] .theme-selector {
+  background-color: #00e5ff;
+  color: #121212;
+  border: 1px solid #00e5ff;
+}
+
+body[data-theme="light"] .theme-selector {
+  background-color: #90caf9;
+  color: #1565c0;
+  border: 1px solid #bcd0ee;
+}

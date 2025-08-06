@@ -1,0 +1,139 @@
+
+body[data-theme="light"] {
+  background: hsl(0, 0%, 100%);
+  color: #000000;
+}
+body[data-theme="dark"] {
+  background: #1e1818;
+  color: #ffffff;
+}
+body[data-theme="dark"] .PostList {
+  background-color: #181818;
+  color: #eee;
+}
+body[data-theme="dark"] .PostList h2 {
+  color: #fff;
+  border-bottom: 2px solid #333;
+}
+body[data-theme="dark"] .filter-btn {
+  background-color: #00b89b;
+  color: #fff;
+}
+body[data-theme="dark"] .search-bar input[type="text"] {
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #00e5ff;
+}
+body[data-theme="dark"] .search-bar input[type="text"]:focus {
+  border-color: #1de9b6;
+}
+
+body[data-theme="light"] .PostList {
+  background-color: #f8f8f8;
+  color: #222;
+}
+body[data-theme="light"] .PostList h2 {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+}
+body[data-theme="light"] .filter-btn {
+  background-color: #e3eafc;
+  color: #222;
+  border: 1px solid #bcd0ee;
+}
+body[data-theme="light"] .search-bar input[type="text"] {
+  background: #fff;
+  color: #222;
+  border: 1px solid #bcd0ee;
+}
+body[data-theme="light"] .search-bar input[type="text"]:focus {
+  border-color: #90caf9;
+}
+
+.PostList {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+.PostList h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 14px 0 20px 0;
+}
+
+.search-bar input[type="text"] {
+  width: 400px;
+  padding: 10px 14px;
+  font-size: 1em;
+  border-radius: 6px;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+select[name="flag"] {
+  width: 220px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f4f8fb;
+  color: #222;
+  transition: border-color 0.2s, background 0.2s;
+}
+select[name="flag"]:focus {
+  border-color: #2d72d9;
+  background-color: #e3eafc;
+  outline: none;
+}
+
+body[data-theme="dark"] select[name="flag"] {
+  background-color: #121212;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body[data-theme="dark"] select[name="flag"]:focus {
+  border-color: #00e5ff;
+  background-color: #181818;
+}  
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.spinner {
+  border: 4px solid #e3eafc;
+  border-top: 4px solid #2d72d9;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}

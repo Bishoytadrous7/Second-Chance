@@ -1,0 +1,120 @@
+body[data-theme="dark"] .PostDetail {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+body[data-theme="dark"] .PostDetail h2 {
+  color: #fff;
+  border-bottom: 2px solid #00e5ff;
+}
+body[data-theme="dark"] .comments-section {
+  background-color: #2a2a2a;
+}
+body[data-theme="dark"] .comments-section li {
+  background-color: #333;
+  color: #eee;
+}
+body[data-theme="dark"] .comments-section input[type="text"] {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+body[data-theme="light"] .PostDetail {
+  background-color: #f7faff;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+body[data-theme="light"] .PostDetail h2 {
+  color: #1565c0;
+  border-bottom: 2px solid #90caf9;
+}
+body[data-theme="light"] .PostDetail .meta {
+  color: #555;
+}
+body[data-theme="light"] .detail-img {
+  border: 1px solid #bcd0ee;
+}
+body[data-theme="light"] .comments-section {
+  background-color: #e3eafc;
+}
+body[data-theme="light"] .comments-section h4 {
+  color: #1565c0;
+}
+body[data-theme="light"] .comments-section li {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #e3eafc;
+}
+body[data-theme="light"] .comments-section input[type="text"] {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #bcd0ee;
+}
+body[data-theme="light"] .gray {
+  color: #555;
+}
+body[data-theme="light"] button {
+  background-color: #90caf9;
+  color: #1565c0;
+}
+body[data-theme="light"] button:hover {
+  background-color: #e3eafc;
+}
+.PostDetail {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+.detail-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background-color 0.2s;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.gray {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+.comments-section {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.comments-section h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.comments-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.comments-section li {
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.comments-section input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
