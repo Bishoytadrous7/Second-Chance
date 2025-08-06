@@ -47,6 +47,8 @@
 - **JavaScript**
 - **HTML & CSS**
 - **Supabase**
+- Deployed on **Netlify**
+
 ---
 
 ## 🙋‍♂️ About Me
