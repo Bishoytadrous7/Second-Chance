@@ -52,5 +52,6 @@
 ## 🙋‍♂️ About Me
 
 I'm a Computer Science student passionate about web development, soccer, and creating engaging web apps.
-🔗 Check out more of my work: [https://github.com/Bishoytadrous7](https://github.com/Bishoytadrous7)
+
+Check out more of my work: [https://github.com/Bishoytadrous7](https://github.com/Bishoytadrous7)
 
