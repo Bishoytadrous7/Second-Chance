@@ -1,97 +1,60 @@
-# Web Development Final Project - *Second Chance*
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?logo=javascript&logoColor=black) ![Supabase](https://img.shields.io/badge/supabase-3FCF8E.svg?logo=supabase&logoColor=white)
 
-Submitted by: **Bishoy Tadrous**
+# 🛍️ Second Chance – Used Items Web App
 
-This web app: **Allows users to list, discover, and interact with used items being sold or shared by others. Users can create item posts with photos, videos, categories (like “Furniture” or "Electronics" and more), upvote them, comment, and customize how they view posts. They also are required to sign up and then log in in order to comment/like so their username appear to others**
+**Second Chance** is a full-stack web app that allows users to list, discover, and interact with used items being sold or shared by others. Users can post items with photos or videos, browse listings by category, upvote and comment on posts, and customize how they view the content. Authentication ensures users must log in to comment or like, and their usernames are displayed to others.
 
-Time spent: **12** hours spent in total
+---
 
-## Required Features
+## 🎥 Demo
 
-The following **required** functionality is completed:
+![Demo](https://i.imgur.com/qLipWmU.gif)
 
+🔗 [View Full GIF](https://i.imgur.com/qLipWmU.gif)
 
-- [x] **Web app includes a create form that allows the user to create posts**
-  - Form requires users to add a post title
-  - Forms should have the *option* for users to add: 
-    - additional textual content
-    - an image added as an external image URL
-- [x] **Web app includes a home feed displaying previously created posts**
-  - Web app must include home feed displaying previously created posts
-  - By default, each post on the posts feed should show only the post's:
-    - creation time
-    - title 
-    - upvotes count
-  - Clicking on a post should direct the user to a new page for the selected post
-- [x] **Users can view posts in different ways**
-  - Users can sort posts by either:
-    -  creation time
-    -  upvotes count
-  - Users can search for posts by title
-- [x] **Users can interact with each post in different ways**
-  - The app includes a separate post page for each created post when clicked, where any additional information is shown, including:
-    - content
-    - image
-    - comments
-  - Users can leave comments underneath a post on the post page
-  - Each post includes an upvote button on the post page. 
-    - Each click increases the post's upvotes count by one
-    - Users can upvote any post any number of times
+---
 
-- [x] **A post that a user previously created can be edited or deleted from its post pages**
-  - After a user creates a new post, they can go back and edit the post
-  - A previously created post can be deleted from its post page
+## 🚀 Features
 
-The following **optional** features are implemented:
+- ✅ Create new posts with:
+  - Title (required)
+  - Description, image URL or local upload, video URL (optional)
+  - Category tags (e.g., Furniture, Electronics)
+  - Post flags such as "Question" or "Opinion"
+- ✅ Home feed that displays:
+  - Post title, creation time, upvotes
+  - Sort by creation time or upvotes
+  - Search by title
+- ✅ Post detail page with:
+  - Full post content, images/videos, comments, upvote button
+- ✅ User interactions:
+  - Upvote any post
+  - Comment with displayed username
+  - Edit or delete only your own posts
+- ✅ Authentication (via Supabase):
+  - Required for liking and commenting
+  - Users must sign up and log in
+- ✅ UI customization options:
+  - Toggle how posts are displayed (e.g., show/hide content or images)
+  - Color scheme options
+- ✅ Loading animation when fetching data
 
+---
 
-- [x] Web app implements pseudo-authentication
-  - Users can only edit and delete posts or delete comments by entering the secret key, which is set by the user during post creation
-  - **or** upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them
-  - For both options, only the original user author of a post can update or delete it
-- [] Users can repost a previous post by referencing its post ID. On the post page of the new post
-  - Users can repost a previous post by referencing its post ID
-  - On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [x] Users can customize the interface
-  - e.g., selecting the color scheme or showing the content and image of each post on the home feed
-- [x] Users can add more characterics to their posts
-  - Users can share and view web videos
-  - Users can set flags such as "Question" or "Opinion" while creating a post
-  - Users can filter posts by flags on the home feed
-  - Users can upload images directly from their local machine as an image file
-- [x] Web app displays a loading animation whenever data is being fetched
+## 🛠️ Built With
 
-The following **additional** features are implemented:
+- **React** 
+- **JavaScript**
+- **HTML & CSS**
+- **Supabase**
+---
 
-* [x] Users can log in/sign up using subapase authentication and when they can't like/comment unless they are logged in and you can see the username of the person who commented.
+## 🙋‍♂️ About Me
 
-## Video Walkthrough
+I'm a Computer Science student passionate about web development, soccer, and creating engaging web apps.
+🔗 Check out more of my work: [https://github.com/Bishoytadrous7](https://github.com/Bishoytadrous7)
 
-Here's a walkthrough of implemented user stories:
+---
 
-<img src='https://i.imgur.com/qLipWmU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://i.imgur.com/qLipWmU.gif
-<!-- Replace this with whatever GIF tool you used! -->
+## 📄 License
 
-GIF created with Kap
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
