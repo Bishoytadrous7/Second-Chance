@@ -11,7 +11,7 @@
 
 ![Demo](src/assets/Second_Chance.gif)
 
-[🛒 Second Chance Live Demo](https://majestic-clafoutis-b6aefd.netlify.app/)
+[Second Chance Live Demo (Netlify)](https://majestic-clafoutis-b6aefd.netlify.app/)
 
 ---
 
