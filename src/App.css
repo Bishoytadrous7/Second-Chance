@@ -1,4 +1,4 @@
-/* Style for the theme selector dropdown */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 .theme-selector {
   padding: 5px 10px;
   margin: 5px;
@@ -22,3 +22,7 @@ body[data-theme="light"] .theme-selector {
   color: #1565c0;
   border: 1px solid #bcd0ee;
 }
+body {
+  font-family: 'Inter', 'Roboto', 'Open Sans', Arial, sans-serif;
+}
+
