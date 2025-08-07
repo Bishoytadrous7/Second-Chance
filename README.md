@@ -9,7 +9,7 @@
 
 ## 🎥 Demo
 
-![Demo](src/assests/Second_Chance.gif)
+![Demo](src/assets/Second_Chance.gif)
 
 [🛒 Second Chance Live Demo](https://majestic-clafoutis-b6aefd.netlify.app/)
 
